@@ -1,0 +1,18 @@
+# version: '3.8'
+services:
+  flask_app:
+    build: .
+    image: vanh_app
+    ports:
+      - "5000:5000"
+
+  # cloudflared:
+  #   image: cloudflare/cloudflared:latest
+  #   command: tunnel --no-autoupdate run --token <YOUR TOKEN>
+
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
