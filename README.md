@@ -2,6 +2,9 @@
 
 Một ứng dụng chatbot thông minh với khả năng RAG (Retrieval-Augmented Generation) để tư vấn bán điện thoại thông minh, kết hợp giữa OpenAI và Ollama để cung cấp trải nghiệm chat đa dạng.
 
+## 🚀 Demo
+Link demo: [https://rag.hoangvanh.id.vn/](https://rag.hoangvanh.id.vn/)
+
 ## ✨ Tính năng
 
 - 🤖 **Dual Chat Modes**: Chat thường và RAG mode cho tư vấn sản phẩm
